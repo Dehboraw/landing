@@ -1,0 +1,82 @@
+/*Esses códigos definem as características dos elementos dentro do body*/
+body {
+    background-color: rgb(240, 231, 184);/*cor de fundo*/
+    font-family:'Times New Roman', Times, serif;/*fonte do texto*/
+    padding: 10px;/*espaçamento de todos os elementos que estão dentro do body na página*/
+    text-align:center;/*texto centralizado*/
+
+}
+/*header = cabeçalho. */
+.header {
+    padding: 30px; /*serve para definir o tamnho do espaço ocupado pelo header*/
+    text-align: justify;/*texto justificado*/
+    background-color: rgb(197, 57, 2);/*cor de fundo*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);/*serve para fazer sombra embaixo do header*/
+    color:aliceblue;/*cor do texto dentro do header*/
+    font-size:22px;/*tamanho da fonte*/
+}
+/*códigos para definir as características dos elentos do Título h1 no header*/
+.header h1 {
+    color:rgb(245, 222, 189);/*cor do título*/
+    font-size:70px;/*tamanho do título*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;/*fonte*/
+    text-align: center;/*alinhamento centralizado*/
+}
+/*topnav= elemento abaixo do header*/
+.topnav {
+    overflow:hidden;/*caso o elemento passe a "caixa" que ele está. Esta propriedade especifica se o conteúdo deve ser recortado ou barras de rolagem adicionadas quando o conteúdo de um elemento é muito grande para caber em uma área especificada. Nesse código, o overflow serve para dar um suporte para os links*/
+    background-color:rgb(231, 231, 231); /*cor de fundo do topnav*/
+}
+/*topnav a é as características de apenas os links*/
+.topnav a {
+    float:left;/*define que os links iram ficar na parte esquerda*/
+    color:rgb(89, 10, 163);
+    text-align: center;
+    padding: 14px 16px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.topnav a:hover {
+    background-color: brown;
+    color:rgb(224, 190, 138);
+}
+
+.cartao {
+    background-color: rgb(231, 182, 74);
+    border-radius:15px;
+    padding:20px;
+    max-width:400px;
+    max-height:350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size:15px;
+    color:rgb(0, 0, 0);
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.cartao h3 {
+    color:rgb(248, 240, 230);
+    text-align:center;
+}
+
+.cartao img {
+    width:250px;
+    border-radius:20%;
+    margin-bottom: 15px;
+
+}
+
+.cartao p {
+    text-align:center;
+
+}
+
+.footer {
+    text-align:center;
+    background-color: rgb(197, 57, 2);
+    padding:20px;
+    margin-top:auto;
+    color:aliceblue;
+}
